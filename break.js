@@ -9,6 +9,12 @@ const products = [
     { name: 'Dell laptop', price: 31000 },
     { name: 'lenovo laptop', price: 41000 },
 ];
+// for (const product of products) {
+//     if (product.price < 10000) {
+//         break;
+//     }
+//     console.log(product);
+// }
 for (const product of products) {
     if (product.price < 10000) {
         continue;
